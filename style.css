@@ -1,0 +1,43 @@
+body{
+    background-color: #87F018
+
+
+}
+
+
+.header{
+    background-color: #F2EC3D;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+
+}
+
+.gride{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p, h2{
+    text-align: center;
+    color: #E62315;
+}
+
+.iten{
+ position:relative
+}
+
+.iten h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0
+}
+.iten:hover h2{
+    opacity: 1;
+}
+.iten:hover img{
+opacity: 0.33;
+}
